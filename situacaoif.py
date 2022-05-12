@@ -4,3 +4,10 @@ if carro <= 5:
 else:
     print('Esta na hora de trocar de carro ')
 print('--FIM--')
+
+''' k,l,m,n = 1,6,7,8
+print(k)
+print(l)
+print(m)
+print(n) '''
+
