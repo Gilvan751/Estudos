@@ -1,7 +1,7 @@
 from time import sleep
 print('\tMenu de opção para efetuar\n\toperação entre dois números')
-n1 = float(input('Digite o primeiro numero '))
-n2 = float(input('Digite o segundo  numero '))
+n1 = int(input('Digite o primeiro numero '))
+n2 = int(input('Digite o segundo  numero '))
 opcao = 0
 while opcao != 5: 
     print(''' Menu de opção
@@ -13,21 +13,21 @@ while opcao != 5:
     opcao = int(input('Qual sua opção? '))
     if opcao ==1:
         soma = n1 + n2
-        print(f'O valor da soma entre {n1:.1f} + {n2:.1f} = {soma} ')
+        print(f'O valor da soma entre {n1} + {n2} = {soma} ')
     elif opcao ==2:
         mult = n1 * n2
-        print(f'O valor da Multiplicação  entre {n1:.1f} * {n2:.1f} = {mult} ')
+        print(f'O valor da Multiplicação  entre {n1} * {n2} = {mult} ')
     elif opcao ==3:
         if n1 > n2:
-            print(f'O maior número entre {n1:.1f} e {n2:.1f} é {n1:.1f}')
+            print(f'O maior número entre {n1} e {n2} é {n1}')
         elif n1 == n2:
-            print(f'Os dois números {n1:.1f} e {n2:.1f} são iguais {n1:.1f}')
+            print(f'Os dois números {n1} e {n2} são iguais {n1}')
         else:
-            print(f'O maior número entre {n1:.1f} e {n2:.1f} é {n2:.1f}')
+            print(f'O maior número entre {n1} e {n2} é {n2}')
     elif opcao == 4:
         print('Digite os dois números: ')
-        n1 = float(input('Digite o primeiro numero '))
-        n2 = float(input('Digite o segundo  numero '))
+        n1 = int(input('Digite o primeiro numero '))
+        n2 = int(input('Digite o segundo  numero '))
     elif opcao == 5:
         print('Finalizando...')
     else:
