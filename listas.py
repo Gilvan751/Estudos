@@ -15,7 +15,23 @@ print(nova_lista) '''
 nova_lista2 = lista2[::-1]
 print(nova_lista2) '''
 
-lista = ["P","Y","T","H","O","N"]
+''' lista = ["P","Y","T","H","O","N"]
 print(lista)
 nova_lista = lista[3:6]
-print(nova_lista)
+print(nova_lista) '''
+
+animais = ['Porco', 'Cachorro','Elefante','Coelho']
+print(animais)
+animais.append('Galinha')#adiciona um elemento na lista
+print(animais)
+animais.remove('Porco')#remove um elemento da lista que tem que passar qual é
+print(animais)
+animais.insert(0,'Papagaio')#insere um elemento na lista de acordo com a posição definida inicialmente
+print(animais)
+# insere um elemento na lista de acordo com a posição definida inicialmente
+animais.insert(6, 'Cavalo')
+print(animais)#remove o elemento da lista comforme a posição passada
+animais.pop(0)
+print(animais)
+animais.pop(3)
+print(animais)
