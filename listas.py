@@ -19,7 +19,7 @@ print(nova_lista2) '''
 print(lista)
 nova_lista = lista[3:6]
 print(nova_lista) '''
-
+''' 
 animais = ['Porco', 'Cachorro','Elefante','Coelho']
 print(animais)
 animais.append('Galinha')#adiciona um elemento na lista
@@ -35,3 +35,16 @@ animais.pop(0)
 print(animais)
 animais.pop(3)
 print(animais)
+ '''
+ 
+lista = ['a','d','e','a','y','w', 'i','j','ç']
+#pode usar o comando 
+for i in range(len(lista)):
+     print(lista[i])
+print(lista)
+lista.reverse()
+print(lista)
+lista.sort()
+print(lista)
+l = lista.count('a')
+print(l)
