@@ -37,7 +37,7 @@ animais.pop(3)
 print(animais)
  '''
  
-lista = ['a','d','e','a','y','w', 'i','j','ç']
+''' lista = ['a','d','e','a','y','w', 'i','j','ç']
 #pode usar o comando 
 for i in range(len(lista)):
      print(lista[i])
@@ -47,4 +47,10 @@ print(lista)
 lista.sort()
 print(lista)
 l = lista.count('a')
-print(l)
+print(l) '''
+
+moveis = ['Geladeira','Fogão','Sofá','Mesa']
+moveis.append('TV')
+print(moveis)
+moveis.pop(2)
+print(moveis)

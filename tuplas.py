@@ -1,0 +1,8 @@
+t = tuple('abc')
+x = ('python')
+x1 = (1,2,3,4,5,6)
+x2 = (2.5,2.6,5.9)
+x3 = ("real",1,5.9,True)
+print(type(x2))
+print(x3)
+print(1 in tuple(x1))
