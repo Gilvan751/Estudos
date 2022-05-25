@@ -15,4 +15,5 @@ while mais !=0:
 
     print('Pauda....\n')
     mais = int(input("Digite 0 para terminar ou a quantidade de termos que você quer mostrar mais: "))
-print("Terminou a execussão.....")
+print(f"Terminou a execussão.....foram mostrados {total} termos")
+
