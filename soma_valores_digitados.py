@@ -1,6 +1,6 @@
 num = cont = soma = media = 0
 
-while num != 999:
+while True:
     num = int(input('Digite um númeor [999 para parar] '))
     if num == 999:
         break
