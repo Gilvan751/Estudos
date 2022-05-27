@@ -9,4 +9,5 @@ while True:
     media = soma / cont
     
     
-print(f'Você digitou {cont} números e a soma entre eles é {soma} e a média e {media} ')
+print(
+    f'Você digitou {cont} números e a soma entre eles é {soma} e a média e {media:.2f} ')
