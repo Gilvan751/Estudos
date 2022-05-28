@@ -1,4 +1,4 @@
-from random import randint
+''' from random import randint
 v = 0
 while True: 
     jogador = int(input('Digite um valor: '))
@@ -24,4 +24,7 @@ while True:
             print('Você PERDEU!')
             break
     print('Vamos jogar novamente... ')
-print(f'GAME OVER!. Você venceu {v} vezes')
+print(f'GAME OVER!. Você venceu {v} vezes') '''
+
+for c in range(0, 5):
+    print(c)
