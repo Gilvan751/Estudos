@@ -10,4 +10,9 @@ def adiciona_15 (m):
 adiciona_15(120)
 
 
-        
+def mais_nove(a):
+    return (a + 9)
+
+
+print('O valor da função mais nove é : ',mais_nove(50))  
+print(adiciona_15(120) , mais_nove(60))      
