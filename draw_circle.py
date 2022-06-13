@@ -9,7 +9,7 @@ t.pensize(2)
 colors = ['red', 'green', 'orange', 'violet',
           'yellow', 'blue']
 for i in range(180):
-    t.color(colors[180 % 6])
+    t.color(colors[i % 6])
     t.fd(100)
     t.rt(30)
     t.fd(20)
