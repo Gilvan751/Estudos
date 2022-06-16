@@ -19,34 +19,34 @@ t.speed(2)
 # Loop for making outside square of
 # length 300
 for i in range(4):
-	t.forward(300)
-	t.left(90)
+	t.fd(300)
+	t.lt(90)
 
 
 # code for inner lines of the square
-t.penup()
+t.up()
 t.goto(0,100)
-t.pendown()
+t.pd()
 
-t.forward(300)
+t.fd(300)
 
-t.penup()
+t.up()
 t.goto(0,200)
-t.pendown()
+t.pd()
 
-t.forward(300)
+t.fd(300)
 
-t.penup()
+t.up()
 t.goto(100,0)
-t.pendown()
+t.pd()
 
-t.left(90)
-t.forward(300)
+t.lt(90)
+t.fd(300)
 
-t.penup()
+t.up()
 t.goto(200,0)
-t.pendown()
+t.pd()
 
 
-t.forward(300)
+t.fd(300)
 turtle.done()
