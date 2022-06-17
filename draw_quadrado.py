@@ -12,7 +12,23 @@ for i in range(4):
     turtle.fd(200)
     turtle.lt(90)
 
+
+
+
+
+
 turtle.end_fill()
+turtle.up()
+
+turtle.goto(200,0)
+turtle.color('green')
+turtle.begin_fill()
+turtle.pd()
+for i in range(3):
+    turtle.fd(200)
+    turtle.lt(120)
+turtle.end_fill()
+
 
 turtle.done()
 
