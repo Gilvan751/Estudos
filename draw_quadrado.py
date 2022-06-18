@@ -49,10 +49,10 @@ turtle.begin_fill()
 turtle.pd()
 turtle.circle(100)
 turtle.end_fill()
-side = 25
+side = 30
 turtle.up()
 
-turtle.goto(200,-250)
+turtle.goto(250,-170)
 turtle.color('violet')
 
 turtle.pd()
