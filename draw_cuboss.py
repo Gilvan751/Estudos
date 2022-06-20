@@ -1,7 +1,7 @@
 import turtle
 s = turtle.Screen()
 t = turtle.Turtle()
-turtle.bgcolor('green')
+turtle.bgpic("Animais-_4_.gif" ) 
 t.color('orange')
 t.pensize(4)
 t.goto(200,0)
