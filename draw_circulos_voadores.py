@@ -16,7 +16,7 @@ animation.getscreen().bgcolor("black")
 
 # color of the animation color
 colors = ['red', 'blue', 'green', 'violet']
-animation.color(colors[3% 4])
+animation.color(colors[3])
 
 
 for i in range(100):
