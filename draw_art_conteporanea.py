@@ -1,7 +1,7 @@
 import turtle
 import time
 
-t = turtle.Turtle()
+t = turtle.Turtle('turtle')
 s = turtle.Screen()
 t.pencolor('#ffffff')
 s.bgcolor('#000000')
