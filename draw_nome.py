@@ -1,6 +1,8 @@
 import turtle
 w = turtle.Screen()
 t = turtle.Turtle('turtle')
+t.pensize(4)
+t.pencolor('green')
 #letraG
 t.goto(50,0)
 t.goto(50,-50)
