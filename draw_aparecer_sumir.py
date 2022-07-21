@@ -6,7 +6,7 @@ turtle.begin_fill()
 for i in range(5): 
     turtle.forward(150) 
     turtle.right(144) 
-    turtle.fillcolor("cyan")
+    turtle.fillcolor("brown")
 turtle.end_fill()
 turtle.done()
 # a função hideturtle() esconde a tartaruga quando desenhado
