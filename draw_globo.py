@@ -16,3 +16,4 @@ while (True):
   
 turtle.hideturtle()  
 turtle.mainloop()  
+turtle.done()
