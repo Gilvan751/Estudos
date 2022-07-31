@@ -2,7 +2,7 @@ import turtle
 # Creating turtle  
 t = turtle.Turtle()  
   
-turtle.bgcolor("black")  
+turtle.bgcolor("green")  
 turtle.pensize(2)  
 turtle.speed(0)  
   
